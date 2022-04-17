@@ -1,0 +1,23 @@
+sudo su
+yum install docker -y
+which docker
+which chef
+docker -v
+service docker status
+docker info
+service docker start
+docker info
+service docker status
+docker images
+docker ps
+docker run -it ubuntu /bin/bash
+cat /etc/os-release
+exit
+docker images
+docker run -it ubuntu /bin/bash
+|->This command will give entry to container... name taken from docker hub
+docker ps -> information of docker which are running
+docker ps -a
+docker images -> one image can make number of containers
+exit
+docker images
